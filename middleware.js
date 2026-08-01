@@ -18,6 +18,6 @@ export function middleware(req) {
 
   return new NextResponse("Auth Required", {
     status: 401,
-    headers: { "WWW-Authenticate": 'Basic realm="לוח מעקב כלכלי"' },
+    headers: { "WWW-Authenticate": 'Basic realm="Finance Dashboard"' },
   });
 }
